@@ -1,4 +1,5 @@
-# Socioeconomic Performance Grouping (SPG) — Machine Learning Analysis
+# Classifying EU Sustainability Performance
+# Socioeconomic Performance Grouping — Machine Learning Analysis
 
 ## Overview
 This project analyzes socioeconomic indicators across countries to classify them into performance tiers.  
