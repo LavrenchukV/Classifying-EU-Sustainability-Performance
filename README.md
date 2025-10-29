@@ -18,7 +18,6 @@ Key steps included:
 - Exploring relationships between variables using correlation plots and pairwise visualizations.
 
 ![Correlation_of_performance_tier_with_other_variables](plots/Correlation.png)  
-*Correlation of performance tier with other variables*
 ---
 
 ## Machine Learning Task
@@ -51,7 +50,6 @@ A separate analysis compared performance trends across **regions and performance
 revealing shifts in socioeconomic patterns and development clusters.
 
 ![Regional Performance Trends](plots/SDGI_score_2015_2024.png)  
-*Regional dynamics across observed periods.*
 
 ---
 
