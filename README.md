@@ -17,9 +17,8 @@ Key steps included:
 - Imputing missing data using **subregion-level averages**, which proved more reliable than country-based imputation.  
 - Exploring relationships between variables using correlation plots and pairwise visualizations.
 
-### Example Figures
 ![Correlation_of_performance_tier_with_other_variables](plots/Correlation.png)  
-
+*Correlation of performance tier with other variables*
 ---
 
 ## Machine Learning Task
