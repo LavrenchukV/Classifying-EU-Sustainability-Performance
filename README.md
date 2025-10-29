@@ -9,6 +9,7 @@ The complete analysis is documented in the Jupyter notebook **`SPG_project_Final
 ---
 
 ## Data Exploration
+
 A comprehensive exploratory data analysis was performed using **pandas**, **numpy**, **matplotlib**, and **seaborn**.  
 Key steps included:
 
@@ -16,6 +17,27 @@ Key steps included:
 - Identifying and handling outliers.  
 - Imputing missing data using **subregion-level averages**, which proved more reliable than country-based imputation.  
 - Exploring relationships between variables using correlation plots and pairwise visualizations.
+
+| Variable              | Description                                                    | Unit in dataset                                 |
+| --------------------- | -------------------------------------------------------------- | ----------------------------------------------- |
+| **year**              | Year of observation                                            | year (2015–2024)                                |
+| **sdgi\_score**       | SDG Index (aggregate sustainability performance score)         | scale 0–100                                     |
+| **performance\_tier** | Sustainability performance classification                      | 0 = Needs Improvement, 1 = Good, 2 = Leaders    |
+| **sdg8\_income**      | Average income per capita (GDP per capita, PPP)                | € per person (≈ 8,800 – 39,000)                 |
+| **sdg8\_unemp**       | Unemployment rate                                              | % of population (2 – 26%)                       |
+| **sdg8\_inwork**      | Employment-to-population ratio                                 | % of population (3 – 19%)                       |
+| **sdg9\_eurd**        | Expenditure on R\&D                                            | % of GDP (0 – 4%)                               |
+| **sdg9\_digital**     | Basic digital skills of the population                         | % of population (28 – 83%)                      |
+| **sdg9\_bband**       | Broadband internet coverage                                    | % of households (59 – 100%)                     |
+| **sdg16\_cpi**        | Corruption Perception Index (Transparency International)       | scale 0–100 (34 – 91; higher = less corruption) |
+| **sdg16\_rsf**        | Press Freedom Index (Reporters Without Borders)                | scale 0–100 (32 – 95; higher = freer press)     |
+| **sdg16\_crime**      | Crime/Safety index                                             | normalized index 1–26 (lower = less crime)      |
+| **sdg4\_tertiary**    | Population with tertiary education                             | % of adults (23 – 63%)                          |
+| **sdg4\_adult**       | Adult participation in education/training                      | % of adults (1 – 39%)                           |
+| **sdg7\_eurenew**     | Share of renewable energy in final energy consumption          | % (5 – 84%)                                     |
+| **sdg13\_co2gcp**     | CO₂ emissions per capita                                       | tons CO₂ per person (≈ 3 – 16.6)                |
+| **sdg5\_empgap**      | Gender employment gap                                          | % difference between men and women (0 – 43%)    |
+| **sdg10\_gini**       | Gini coefficient (income inequality)                           | 21 – 45 (scale typical for Europe)              |
 
 ![Correlation_of_performance_tier_with_other_variables](plots/Correlation.png)  
 ---
