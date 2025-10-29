@@ -52,14 +52,30 @@ revealing shifts in socioeconomic patterns and development clusters.
 ![Regional Performance Trends](plots/SDGI_score_2015_2024.png)  
 
 ---
-
 ## Repository Structure
+The project directory is organized as follows:
+```
+Classifying_EU_Sustainability_Performance/
+│
+├── SPG_project_Final.ipynb # Main Jupyter notebook containing data analysis, ML pipeline, and results
+├── README.md # Main project documentation (this file)
+├── .gitattributes # Git configuration file for consistent file handling
+│
+├── data/ # Source and processed data files used for analysis
+├── plots/ # Exported figures and visualizations featured in the README
+├── aditional materials/ # Supplementary datasets, reports, or resources
+├── policy_analysis/ # Policy insight tables and interpretation results
+└── use_case_documentation/ # Use case description, methodology, and applied context documentation
+```
+### Notes
 
-SPG_project_Final.ipynb # Main Jupyter notebook with analysis
-data/ # Input data files
-plots/ # Saved figures for README and publication
-models/ # Trained model files (optional)
-README.md # Project documentation
+- **`SPG_project_Final.ipynb`** — contains the complete workflow: data exploration, feature engineering, modeling, and insights.  
+- **`data/`** — stores the input data used for sustainability and performance metrics.  
+- **`plots/`** — includes all key plots exported from the notebook (ready for publication or README embedding).  
+- **`policy_analysis/`** — holds tables, regional breakdowns, and qualitative analyses supporting policy conclusions.  
+- **`use_case_documentation/`** — contains use-case explanations, problem framing, and AI application context.  
+- **`aditional materials/`** — additional reference materials or supplementary files.  
+- **`README.md`** — explains the project’s purpose, workflow, and results for readers and collaborators.
 
 ---
 
