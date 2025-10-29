@@ -67,6 +67,8 @@ Classifying_EU_Sustainability_Performance/
 ├── policy_analysis/ # Policy insight tables and interpretation results
 └── use_case_documentation/ # Use case description, methodology, and applied context documentation
 ```
+---
+
 ### Notes
 
 - **`SPG_project_Final.ipynb`** — contains the complete workflow: data exploration, feature engineering, modeling, and insights.  
