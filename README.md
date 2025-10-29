@@ -122,4 +122,4 @@ Results can inform:
 ## Author
 **Valentyna Lavrenchuk**  
 Contact: lavrenchuk.v.an@gmail.com  
-Affiliation: Kiron Open Higher Education / Thrive / Applied AI upskilling program
+Affiliation: Kiron Open Higher Education / Thrive / Applied AI upskilling program / Applied AI Institute for Europe
