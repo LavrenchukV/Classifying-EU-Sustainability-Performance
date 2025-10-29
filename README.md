@@ -1,4 +1,4 @@
-# Socioeconomic Performance Grouping (SPG) — Machine Learning Analysis
+# Classifying EU Sustainability Performance — Machine Learning Analysis
 
 ## Overview
 This project analyzes socioeconomic indicators across countries to classify them into performance tiers.  
@@ -17,9 +17,7 @@ Key steps included:
 - Imputing missing data using **subregion-level averages**, which proved more reliable than country-based imputation.  
 - Exploring relationships between variables using correlation plots and pairwise visualizations.
 
-### Example Figures
-![Feature Correlation Heatmap](plots/correlation.png)  
-
+![Correlation_of_performance_tier_with_other_variables](plots/Correlation.png)  
 ---
 
 ## Machine Learning Task
@@ -46,14 +44,12 @@ A complete ML pipeline was implemented with a focus on interpretability and robu
 | **Economic interpretation** | Economies stuck in a development trap: weak institutions, low income, high inequality, poor innovation, high ecological footprint. | Economies at a crossroads: some advancing toward innovation and inclusion, others stagnating — explaining the bimodal distributions. | Economies with consolidated leadership: strong institutions, high innovation, inclusive labor markets, low inequality, and sustainable ecological policies. |
 | **Summary** | Structurally constrained, high-risk economies. | Heterogeneous transitional group, with both “catch-up” and “lagging” trajectories. | Consolidated leaders combining prosperity, innovation, social inclusion, and sustainability. |
 
-### Key Findings
 
 ## Temporal and Regional Analysis
 A separate analysis compared performance trends across **regions and performance tiers** over time,  
 revealing shifts in socioeconomic patterns and development clusters.
 
 ![Regional Performance Trends](plots/SDGI_score_2015_2024.png)  
-*Regional dynamics across observed periods.*
 
 ---
 
